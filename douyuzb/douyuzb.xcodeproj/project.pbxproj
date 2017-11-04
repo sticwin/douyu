@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		63741BDF1FACC48F0040AA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BDE1FACC48F0040AA2A /* AppDelegate.swift */; };
-		63741BE11FACC48F0040AA2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BE01FACC48F0040AA2A /* ViewController.swift */; };
 		63741BE41FACC48F0040AA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63741BE21FACC48F0040AA2A /* Main.storyboard */; };
 		63741BE61FACC48F0040AA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63741BE51FACC48F0040AA2A /* Assets.xcassets */; };
 		63741BE91FACC48F0040AA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63741BE71FACC48F0040AA2A /* LaunchScreen.storyboard */; };
 		63741BF41FACC48F0040AA2A /* douyuzbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BF31FACC48F0040AA2A /* douyuzbTests.swift */; };
 		63741BFF1FACC48F0040AA2A /* douyuzbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BFE1FACC48F0040AA2A /* douyuzbUITests.swift */; };
+		63741C101FAD57360040AA2A /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 63741C0F1FAD57360040AA2A /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		63741BDB1FACC48F0040AA2A /* douyuzb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyuzb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63741BDE1FACC48F0040AA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63741BE01FACC48F0040AA2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63741BE31FACC48F0040AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63741BE51FACC48F0040AA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63741BE81FACC48F0040AA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		63741BFA1FACC48F0040AA2A /* douyuzbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuzbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63741BFE1FACC48F0040AA2A /* douyuzbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuzbUITests.swift; sourceTree = "<group>"; };
 		63741C001FACC48F0040AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63741C0F1FAD57360040AA2A /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		63741BDD1FACC48F0040AA2A /* douyuzb */ = {
 			isa = PBXGroup;
 			children = (
+				63741C0F1FAD57360040AA2A /* Classes */,
 				63741BDE1FACC48F0040AA2A /* AppDelegate.swift */,
-				63741BE01FACC48F0040AA2A /* ViewController.swift */,
 				63741BE21FACC48F0040AA2A /* Main.storyboard */,
 				63741BE51FACC48F0040AA2A /* Assets.xcassets */,
 				63741BE71FACC48F0040AA2A /* LaunchScreen.storyboard */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63741BE91FACC48F0040AA2A /* LaunchScreen.storyboard in Resources */,
+				63741C101FAD57360040AA2A /* Classes in Resources */,
 				63741BE61FACC48F0040AA2A /* Assets.xcassets in Resources */,
 				63741BE41FACC48F0040AA2A /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63741BE11FACC48F0040AA2A /* ViewController.swift in Sources */,
 				63741BDF1FACC48F0040AA2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

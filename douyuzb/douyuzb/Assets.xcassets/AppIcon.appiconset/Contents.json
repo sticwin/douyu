@@ -97,42 +97,6 @@
       "idiom" : "ios-marketing",
       "size" : "1024x1024",
       "scale" : "1x"
-    },
-    {
-      "filename" : "AppIcon20x20@2x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon20x20@3x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon29x29.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon29x29@2x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon40x40@2x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon57x57.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon57x57@2x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon60x60@2x.png",
-      "unassigned" : true
-    },
-    {
-      "filename" : "AppIcon60x60@3x.png",
-      "unassigned" : true
     }
   ],
   "info" : {
