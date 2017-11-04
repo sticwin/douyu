@@ -13,7 +13,6 @@
 		63741BE91FACC48F0040AA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63741BE71FACC48F0040AA2A /* LaunchScreen.storyboard */; };
 		63741BF41FACC48F0040AA2A /* douyuzbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BF31FACC48F0040AA2A /* douyuzbTests.swift */; };
 		63741BFF1FACC48F0040AA2A /* douyuzbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63741BFE1FACC48F0040AA2A /* douyuzbUITests.swift */; };
-		63741C101FAD57360040AA2A /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 63741C0F1FAD57360040AA2A /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		63741BFA1FACC48F0040AA2A /* douyuzbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuzbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63741BFE1FACC48F0040AA2A /* douyuzbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuzbUITests.swift; sourceTree = "<group>"; };
 		63741C001FACC48F0040AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63741C0F1FAD57360040AA2A /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +95,8 @@
 		63741BDD1FACC48F0040AA2A /* douyuzb */ = {
 			isa = PBXGroup;
 			children = (
-				63741C0F1FAD57360040AA2A /* Classes */,
+				63741C141FAD5B100040AA2A /* Classes */,
 				63741BDE1FACC48F0040AA2A /* AppDelegate.swift */,
-				63741BE21FACC48F0040AA2A /* Main.storyboard */,
 				63741BE51FACC48F0040AA2A /* Assets.xcassets */,
 				63741BE71FACC48F0040AA2A /* LaunchScreen.storyboard */,
 				63741BEA1FACC48F0040AA2A /* Info.plist */,
@@ -123,6 +120,62 @@
 				63741C001FACC48F0040AA2A /* Info.plist */,
 			);
 			path = douyuzbUITests;
+			sourceTree = "<group>";
+		};
+		63741C141FAD5B100040AA2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63741C171FAD5B3C0040AA2A /* Main */,
+				63741C191FAD5B4D0040AA2A /* Home */,
+				63741C181FAD5B450040AA2A /* Live */,
+				63741C1A1FAD5B540040AA2A /* Follow */,
+				63741C151FAD5B2A0040AA2A /* Profile */,
+				63741C1B1FAD5B5F0040AA2A /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63741C151FAD5B2A0040AA2A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		63741C171FAD5B3C0040AA2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				63741BE21FACC48F0040AA2A /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		63741C181FAD5B450040AA2A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		63741C191FAD5B4D0040AA2A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63741C1A1FAD5B540040AA2A /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		63741C1B1FAD5B5F0040AA2A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63741BE91FACC48F0040AA2A /* LaunchScreen.storyboard in Resources */,
-				63741C101FAD57360040AA2A /* Classes in Resources */,
 				63741BE61FACC48F0040AA2A /* Assets.xcassets in Resources */,
 				63741BE41FACC48F0040AA2A /* Main.storyboard in Resources */,
 			);
