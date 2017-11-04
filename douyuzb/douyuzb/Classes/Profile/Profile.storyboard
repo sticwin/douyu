@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="svh-DO-NuN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cvw-VQ-UCM">
+            <objects>
+                <viewController id="bbK-mc-vgN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ddG-qq-cmA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="66V-zN-XT9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sJZ-p0-1pi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aLS-40-sNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1810" y="2308"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="VMH-2D-L83">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="svh-DO-NuN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="btn_login_weixin_HL" selectedImage="btn_login_weixin" id="F9P-zv-ICH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yae-Tn-PD1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bbK-mc-vgN" kind="relationship" relationship="rootViewController" id="Tql-TN-l9m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUp-oC-MTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2559" y="2308"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_login_weixin" width="24" height="24"/>
+        <image name="btn_login_weixin_HL" width="24" height="24"/>
+    </resources>
+</document>
