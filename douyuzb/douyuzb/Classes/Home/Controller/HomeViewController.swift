@@ -8,29 +8,47 @@
 
 import UIKit
 
+private let kTitleViewH: CGFloat = 40
+
 class HomeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    //STC： 懒加载属性
+    private var pageTitleView: PageTitleView {
+        let titleFrame = CGRect(x: 0, y: kStateBarH + kNavigationBar, width: kScreenW, height: kTitleViewH)
+        let titles = ["推荐", "游戏", "娱乐", "趣玩"]
+        let titleView = PageTitleView(frame: titleFrame, titles: titles)
+//        titleView.backgroundColor = UIColor.purple
+        return titleView
 
-        // Do any additional setup after loading the view.
-        
-        // 设置UI界面
-        setupUI()
-        
-        
-        
     }
-
-
+        
+    override func viewDidLoad() {
+    super.viewDidLoad()
+        
+    // Do any additional setup after loading the view.
+        
+    // 设置UI界面
+    setupUI()
+        
+        }
+    
+    
 }
+
 
 
 // MARK: 设置UI界面
 extension HomeViewController {
+
     private func setupUI(){
-       //设置导航栏
+        // 0、关闭系统自动调整内边距
+        automaticallyAdjustsScrollViewInsets = false
+        
+        // 1、设置导航栏
         setupNavigationBar()
+        
+        // 2、 设置标题栏-titleView
+        view.addSubview(pageTitleView)
         
     }
     
